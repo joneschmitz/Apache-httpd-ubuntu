@@ -29,7 +29,6 @@ sudo make
 sudo make install
 cd ~/apache/
 rm Makefile config.h config.log config.status libpcre.pc libpcrecpp.pc libpcreposix.pc libtool pcre-config pcre.h pcre_stringpiece.h stamp-h1 prcecpparg.h pcrecpparg.h
-                #cd ~/apache
 wget https://ftp.pcre.org/pub/pcre/pcre-8.44.tar.gz
 tar xf pcre-8.44.tar.gz
 cd pcre-8.44/
