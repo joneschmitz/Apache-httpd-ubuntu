@@ -1,5 +1,6 @@
 #!/bin/bash
-repo=$(PWD)/gz
+repo=$(dirname ${BASH_SOURCE[0]})
+repo=$(pwd)/${repo:2}/gz
 
 sudo apt update
 sudo apt install gcc -y
