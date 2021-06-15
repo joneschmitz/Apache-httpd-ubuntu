@@ -8,6 +8,7 @@ Installation scripts for apache2 using httpd for ubuntu 20.04 as hosted on AWS F
 
 <hr>
 
-Web Pages stored in /usr/local/apache2/htdocs/
-Only accessible through port 80 (http) connections, must have port 80 open in your microservice's security settings
-The script creates a service for apache and runs it
+- Web Pages stored in /usr/local/apache2/htdocs/
+- Only accessible through port 80 (http) connections
+  - You must have port 80 open in your microservice's security settings
+- The script creates a service for apache and runs it
